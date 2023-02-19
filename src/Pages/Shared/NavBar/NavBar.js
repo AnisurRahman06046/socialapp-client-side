@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const NavBar = () => {
     const menuItems=<>
-    <li><Link>Home</Link></li>
-    <li><Link>Media</Link></li>
-    <li><Link>Message</Link></li>
+    <li><Link to='/'>Home</Link></li>
+    <li><Link to="/media">Media</Link></li>
+
         
-        <li><Link>About</Link></li>
+        <li><Link to="/about">About</Link></li>
     </>
     return (
         <div className="navbar flex justify-between bg-purple-500 ">
